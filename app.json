@@ -1,0 +1,15 @@
+{
+  "name": "Nginx Heroku Sample",
+  "description": "A sample Nginx app on Heroku",
+  "keywords": [
+    "heroku",
+    "nginx",
+    "sample"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/xuiv/heroku-buildpack-nginx.git"
+    }
+  ],
+  "repository": "https://github.com/xuiv/nginx-heroku-sample"
+}
